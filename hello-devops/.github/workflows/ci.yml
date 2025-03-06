@@ -35,7 +35,6 @@ jobs:
     steps:
       - name: Deploy App
         run: echo "Deploying application..."
-
   notify:
     needs: [test]
     runs-on: ubuntu-latest
